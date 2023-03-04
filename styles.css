@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: hsl(30, 38%, 92%)
+}
+
+img{
+    height: 100%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    margin-top: 27.5vh;
+
+}
+
+.text-box{
+    width: 25vh;
+    height: 40vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+p{
+    font-size: 0.875rem;
+    color: hsl(228, 12%, 48%);
+}
+
+:is(h2, h5, p, h1,){
+    padding: 1.25rem;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.discount{
+    font-weight: 700;
+    text-decoration: line-through;
+}
+
+h2{
+    color: green;
+}
+
+.btn{
+    background-color: rgb(3, 92, 3);
+    color: #fff;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 5%;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.btn:hover{
+    background-color: rgb(5, 56, 5);
+    cursor: pointer;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    width: 5%;
+    align-items: center;
+}
